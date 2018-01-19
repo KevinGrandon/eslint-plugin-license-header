@@ -1,0 +1,26 @@
+{
+  "name": "@uber/eslint-plugin-license-header",
+  "version": "1.0.0",
+  "description": "ESLint plugin to ensure that files have license header",
+  "repository": "uber-web/eslint-plugin-license-header",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit",
+    "unit": "mocha tests/lib/*.js tests/lib/**/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "license": "MIT"
+}
